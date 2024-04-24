@@ -20,7 +20,7 @@ app.use((req, res, next) => {
 // Server listening
 app.listen(PORT, () => {
   console.log(
-    chalk.black.bgGreenBright.bold(` Running \n`) +
+    chalk.black.bgGreenBright.bold(` aaaaaaaaaaaaaaaaaaaaaaRunning \n`) +
       chalk.yellowBright(`🚀 Server listening on port `) +
       chalk.magentaBright.bold(`${PORT}`)
   );
